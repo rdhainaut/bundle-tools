@@ -1,10 +1,10 @@
 {
-  "name": "@intlify/unplugin-vue-i18n",
+  "name": "@rdhainaut/unplugin-vue-i18n",
   "version": "0.10.0",
   "description": "unplugin for Vue I18n",
   "author": {
-    "name": "kazuya kawaguchi",
-    "email": "kawakazu80@gmail.com"
+    "name": "raphael dhainaut",
+    "email": "dhainautraphael@gmail.com"
   },
   "bugs": {
     "url": "https://github.com/intlify/bundle-tools/issues"
@@ -26,8 +26,8 @@
     }
   },
   "dependencies": {
-    "@intlify/bundle-utils": "^5.4.0",
     "@intlify/shared": "9.3.0-beta.17",
+    "@rdhainaut/bundle-utils": "^6.0.0",
     "@rollup/pluginutils": "^5.0.2",
     "@vue/compiler-sfc": "^3.2.47",
     "debug": "^4.3.3",

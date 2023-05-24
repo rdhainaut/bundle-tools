@@ -20,7 +20,7 @@ import {
   checkInstallPackage,
   checkVueI18nBridgeInstallPackage,
   getVueI18nVersion
-} from '@intlify/bundle-utils'
+} from '@rdhainaut/bundle-utils'
 import { RawSourceMap } from 'source-map'
 import { parse } from '@vue/compiler-sfc'
 import { parseVueRequest, VueQuery } from './query'
@@ -29,7 +29,7 @@ import { getRaw, warn, error, raiseError } from './utils'
 
 import type { UnpluginContextMeta, UnpluginOptions } from 'unplugin'
 import type { PluginOptions } from './types'
-import type { CodeGenOptions, DevEnv } from '@intlify/bundle-utils'
+import type { CodeGenOptions, DevEnv } from '@rdhainaut/bundle-utils'
 
 const INTLIFY_BUNDLE_IMPORT_ID = '@intlify/unplugin-vue-i18n/messages'
 const INTLIFY_BUNDLE_IMPORT_DEPRECTED_ID =

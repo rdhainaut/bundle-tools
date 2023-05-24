@@ -993,28 +993,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@intlify/bundle-utils@npm:^5.4.0":
-  version: 5.5.0
-  resolution: "@intlify/bundle-utils@npm:5.5.0"
-  dependencies:
-    "@intlify/message-compiler": 9.3.0-beta.17
-    "@intlify/shared": 9.3.0-beta.17
-    acorn: ^8.8.2
-    escodegen: ^2.0.0
-    estree-walker: ^2.0.2
-    jsonc-eslint-parser: ^1.0.1
-    magic-string: ^0.30.0
-    source-map: 0.6.1
-    yaml-eslint-parser: ^0.3.2
-  peerDependenciesMeta:
-    petite-vue-i18n:
-      optional: true
-    vue-i18n:
-      optional: true
-  checksum: 35550b7f06ea2061d168baba7f0f91498a16da3e1e258ce8571f1f8b2b6db59aa072261cbb1d0e58a785159415126ed005c06f4843ab1ba855de03bb2d200d36
-  languageName: node
-  linkType: hard
-
 "@intlify/bundle-utils@npm:next":
   version: 3.1.0
   resolution: "@intlify/bundle-utils@npm:3.1.0"
@@ -1139,37 +1117,6 @@ __metadata:
   checksum: 3aad616c66c6ec479f78750e32a6f2d2f20fb7a32b4b634c2c81c58de52ca4f9c5ebfcb347411f5a719e08bd80cbcb86f13a66ad7a1a3faae45877d7ba789250
   languageName: node
   linkType: hard
-
-"@intlify/unplugin-vue-i18n@workspace:packages/unplugin-vue-i18n":
-  version: 0.0.0-use.local
-  resolution: "@intlify/unplugin-vue-i18n@workspace:packages/unplugin-vue-i18n"
-  dependencies:
-    "@intlify/bundle-utils": ^5.4.0
-    "@intlify/shared": 9.3.0-beta.17
-    "@rollup/pluginutils": ^5.0.2
-    "@vue/compiler-sfc": ^3.2.47
-    debug: ^4.3.3
-    fast-glob: ^3.2.12
-    js-yaml: ^4.1.0
-    json5: ^2.2.3
-    pathe: ^1.0.0
-    picocolors: ^1.0.0
-    source-map: 0.6.1
-    unbuild: ^1.1.2
-    unplugin: ^1.1.0
-  peerDependencies:
-    petite-vue-i18n: "*"
-    vue-i18n: "*"
-    vue-i18n-bridge: "*"
-  peerDependenciesMeta:
-    petite-vue-i18n:
-      optional: true
-    vue-i18n:
-      optional: true
-    vue-i18n-bridge:
-      optional: true
-  languageName: unknown
-  linkType: soft
 
 "@intlify/vite-plugin-vue-i18n@workspace:packages/vite-plugin-vue-i18n":
   version: 0.0.0-use.local
@@ -1726,6 +1673,60 @@ __metadata:
   checksum: f122b9aee8f6baddd515e34a0913e73b21d4bc82d6ee59d77a8aaf01b4a02c10867dd013003d087a83dc96db23511893669015af6d30c27cece185e21cf1df89
   languageName: node
   linkType: hard
+
+"@rdhainaut/bundle-utils@npm:^6.0.0":
+  version: 6.0.0
+  resolution: "@rdhainaut/bundle-utils@npm:6.0.0"
+  dependencies:
+    "@intlify/message-compiler": 9.3.0-beta.17
+    "@intlify/shared": 9.3.0-beta.17
+    acorn: ^8.8.2
+    escodegen: ^2.0.0
+    estree-walker: ^2.0.2
+    jsonc-eslint-parser: ^1.0.1
+    magic-string: ^0.30.0
+    mlly: ^1.2.0
+    source-map: 0.6.1
+    yaml-eslint-parser: ^0.3.2
+  peerDependenciesMeta:
+    petite-vue-i18n:
+      optional: true
+    vue-i18n:
+      optional: true
+  checksum: 9025c5c0c1a22dc22421a67f2c6d927f3dd4f8b793c596eb40f10e086595fe5a925695cefa50d32661fd719c638b60e50c613d4fe713d0324f4a37aaa98d41be
+  languageName: node
+  linkType: hard
+
+"@rdhainaut/unplugin-vue-i18n@workspace:packages/unplugin-vue-i18n":
+  version: 0.0.0-use.local
+  resolution: "@rdhainaut/unplugin-vue-i18n@workspace:packages/unplugin-vue-i18n"
+  dependencies:
+    "@intlify/shared": 9.3.0-beta.17
+    "@rdhainaut/bundle-utils": ^6.0.0
+    "@rollup/pluginutils": ^5.0.2
+    "@vue/compiler-sfc": ^3.2.47
+    debug: ^4.3.3
+    fast-glob: ^3.2.12
+    js-yaml: ^4.1.0
+    json5: ^2.2.3
+    pathe: ^1.0.0
+    picocolors: ^1.0.0
+    source-map: 0.6.1
+    unbuild: ^1.1.2
+    unplugin: ^1.1.0
+  peerDependencies:
+    petite-vue-i18n: "*"
+    vue-i18n: "*"
+    vue-i18n-bridge: "*"
+  peerDependenciesMeta:
+    petite-vue-i18n:
+      optional: true
+    vue-i18n:
+      optional: true
+    vue-i18n-bridge:
+      optional: true
+  languageName: unknown
+  linkType: soft
 
 "@rollup/plugin-alias@npm:^3.1.5":
   version: 3.1.9
