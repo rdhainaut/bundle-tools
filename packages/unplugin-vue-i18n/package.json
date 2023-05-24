@@ -1,6 +1,6 @@
 {
   "name": "@rdhainaut/unplugin-vue-i18n",
-  "version": "0.10.0",
+  "version": "0.10.2",
   "description": "unplugin for Vue I18n",
   "author": {
     "name": "raphael dhainaut",
